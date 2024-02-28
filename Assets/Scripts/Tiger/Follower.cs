@@ -17,7 +17,6 @@ public class Follower : MonoBehaviour
     void Update()
     {
         _distanceTravelled += speed * Time.deltaTime * TigerSpeedManager.GetSpeed();
-        Debug.Log("SPEED = " + (speed * TigerSpeedManager.GetSpeed()));
         transform.position = _pathCreator.path.GetPointAtDistance(_distanceTravelled);
         transform.rotation = _pathCreator.path.GetRotationAtDistance(_distanceTravelled);
     }

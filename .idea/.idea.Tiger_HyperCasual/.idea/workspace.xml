@@ -37,9 +37,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Shop/AddButcheryButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shop/AddTigerButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shop/AddSpeedToTigerButton1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Tiger/Follower.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tiger/TigerSpeedManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shop/Button.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tiger/Follower.cs" />
       </list>
     </option>
   </component>
@@ -85,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709112965762</updated>
-      <workItem from="1709112972499" duration="10251000" />
+      <workItem from="1709112972499" duration="10740000" />
     </task>
     <servers />
   </component>
