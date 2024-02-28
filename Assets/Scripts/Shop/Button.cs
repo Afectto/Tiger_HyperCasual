@@ -9,12 +9,14 @@ public abstract class Button : MonoBehaviour
     [SerializeField] protected int price;
     [SerializeField] private int maxBuyCount;
     [SerializeField] private Text value;
-    
+
+    private int _basePrice;
     private int _alreadyBuyCount = 1;
 
     private void Start()
     {
         value.text = price.ToString();
+        _basePrice = price;
     }
 
     protected abstract void BuyItem();
@@ -27,7 +29,7 @@ public abstract class Button : MonoBehaviour
         {
             ChangeCurrency(isCoin);
             _alreadyBuyCount++;
-            price *= _alreadyBuyCount;
+            price = _basePrice * _alreadyBuyCount;
             BuyItem();
         }
 

@@ -21,7 +21,7 @@ public class TigerSpeedManager : MonoBehaviour
         ReduceSpeed(value);
     }
 
-    private void IncreasedSpeed(float value)
+    public static void IncreasedSpeed(float value)
     {
         speedMultiplier *= value;
     }
